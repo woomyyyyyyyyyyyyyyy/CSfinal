@@ -166,6 +166,7 @@ public class Grid {
       for (int i = 1; i <= 3 ; i++){
         addCardToBoard(deck.deal());
       }
+      message = 3; //you forgor to change message croline
       currentCols++ ;
     }
     // else there was a set
